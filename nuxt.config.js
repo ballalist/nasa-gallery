@@ -42,5 +42,8 @@ module.exports = {
     'bulma',
     '@/assets/css/main.scss'
   ],
-  mode: 'spa'
+  mode: 'spa',
+  router: {
+      base: '/nasa-gallery/'
+  }
 }
