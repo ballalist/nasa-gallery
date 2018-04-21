@@ -11,7 +11,11 @@
          <gallery :images="imageList" :index="index" @close="index = null"></gallery>
 
          <div v-for="(imageList, listIndex) in chunkedImage" :key="listIndex" class="columns">
-            <div v-for="(image, imageIndex) in imageList" :key="imageIndex" class="column image" @click="index = imageIndex" :style="{ backgroundImage: 'url(' + image + ')', width: '300px', height: '200px' }"></div>
+            <div v-for="(image, imageIndex) in imageList" :key="imageIndex" class="column">
+               <figure class="image is-4by3">
+                 <img :src="image" title="click to see full image" @click="index = imageIndex">
+               </figure>
+            </div>
          </div>
       </div>
    </section>

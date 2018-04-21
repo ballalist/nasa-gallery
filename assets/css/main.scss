@@ -1,3 +1,12 @@
 .blueimp-gallery > p.description {
    top: 50px;
 }
+
+.image {
+   cursor: pointer;
+   background: no-repeat center center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
