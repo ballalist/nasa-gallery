@@ -1,0 +1,32 @@
+{
+  "name": "nasa-gallery",
+  "version": "1.0.0",
+  "description": "basic integrating from Nasa API",
+  "author": "Bond <waranon.tiamsang@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bulma": "^0.7.1",
+    "chunk": "0.0.2",
+    "nuxt": "^1.0.0",
+    "vue-content-loading": "^1.4.0",
+    "vue-gallery": "^1.3.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "node-sass": "^4.8.3",
+    "sass-loader": "^7.0.1"
+  }
+}
