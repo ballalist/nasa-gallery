@@ -44,6 +44,7 @@ module.exports = {
   ],
   mode: 'spa',
   router: {
-      base: '/nasa-gallery/'
+      base: '/nasa-gallery/',
+      mode: 'hash'
   }
 }
