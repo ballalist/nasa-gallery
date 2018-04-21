@@ -1,8 +1,8 @@
-# nasa-gallery   +# STATIC
+# NASA-gallery
     
 > basic integrating from Nasa API  +This directory contains your static files.
     
-## Build Setup   +Example: /static/robots.txt is mapped as /robots.txt.
+## Build Setup   
     
 ``` bash   +More information about the usage of this directory in the documentation:
 # install dependencies +https://nuxtjs.org/guide/assets#static
